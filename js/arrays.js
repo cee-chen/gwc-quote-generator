@@ -20,13 +20,10 @@ window.quotes = {
     "The Princess Bride": [
         'As you wish. <span>- Westley</span>' ,
         '"We\'ll never survive!"<br>"Nonsense. You\'re only saying that because no one ever has." <span>- Westley to Buttercup</span> ',
-        'Good night, Westley. Good work. Sleep well. I\'ll most likely kill you in the morning. ',
- '
-
+        'Good night, Westley. Good work. Sleep well. I\'ll most likely kill you in the morning.',
     ],
     "Happiness": [
         "We all live with the objective of being happy; our lives are all different and yet the same.",
         "Joy multiplies when it is shared among friends.",
-        
     ],
 };
