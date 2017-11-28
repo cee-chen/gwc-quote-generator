@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    font-family: 'Satisfy', Times New Roman, serif;
+}
+input, select, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+body {
+    position: relative;
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    color: #fff;
+    background-image: url('../images/Background.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dimmer {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 50em;
+    width: 100%;
+}
+
+.quote {
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+}
+.quote span {
+    display: block;
+    margin-top: .5em;
+    font-family: 'Lobster';
+    font-size: .7em;
+    font-weight: 400;
+    color: #ccc;
+}
+
+
+/* Nice Select plugin styling */
+
+.chosen-container {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+select {
+    display: block;
+    width: 20em;
+    margin: 0 auto;
+}
+
+
+button {
+    display: block;
+    width: 10em;
+    margin: 1em auto;
+    padding: 8px 10px;
+    font-family: 'Lobster Two';
+    font-size: 2em;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: .3s linear all;
+}
+button:hover,
+button:focus {
+    color: #333;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.cinema-bg {
+    background-image: url('../images/CinemaBackground.jpg');
+    background-color: #000;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.library-bg {
+    background-image: url('../images/LibraryBackground.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
