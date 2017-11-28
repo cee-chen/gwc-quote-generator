@@ -34,7 +34,7 @@ button.click(function() {
         quoteAnimation( quote );
     } else {
         // If we can't find any quotes, reset the text
-        quoteAnimation( 'Don\'t do this' );
+        quoteAnimation( 'Click for an awesome random quote.' );
     }
 });
 
